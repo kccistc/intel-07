@@ -1,3 +1,4 @@
 # Tearm4
 - Yun Dong Jun
-  Park Jin su
+- Park Jin su
+- Park Seong Jun
