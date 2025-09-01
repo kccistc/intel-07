@@ -2,3 +2,4 @@
 - Yun Dong Jun
 - Park Jin su
 - Park Seong Jun
+- Seol Yeong Hyeon
