@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RtspView</class>
+ <widget class="QWidget" name="RtspView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>631</width>
+    <height>576</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>RTSP (GStreamer TCP)</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout" stretch="0,10,0,0">
+     <item>
+      <layout class="QHBoxLayout" name="hctl">
+       <item>
+        <widget class="QPushButton" name="playButton">
+         <property name="text">
+          <string>Play</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="stopButton">
+         <property name="text">
+          <string>Stop</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="videoLabel">
+       <property name="minimumSize">
+        <size>
+         <width>320</width>
+         <height>240</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string>background:#222; color:#aaa;</string>
+       </property>
+       <property name="text">
+        <string>(no video)</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="videoLabel_2">
+       <property name="minimumSize">
+        <size>
+         <width>320</width>
+         <height>240</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string>background:#222; color:#aaa;</string>
+       </property>
+       <property name="text">
+        <string>(no video)</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="statusLabel">
+       <property name="text">
+        <string>Idle</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

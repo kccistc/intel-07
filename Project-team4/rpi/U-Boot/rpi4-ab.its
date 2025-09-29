@@ -1,0 +1,63 @@
+/dts-v1/;
+/ {
+  description = "Raspberry Pi 4 A/B signed FIT";
+  #address-cells = <1>;
+
+  images {
+    kernelA {
+      description = "Linux zImage (A)";
+      data = /incbin/("kernel7l_A.img");
+      type = "kernel"; arch = "arm"; os = "linux"; compression = "none";
+      load = <0x02000000>; entry = <0x02000000>;
+      hash-1 { algo = "sha256"; };
+    };
+
+    kernelB {
+      description = "Linux zImage (B)";
+      data = /incbin/("kernel7l_B.img");
+      type = "kernel"; arch = "arm"; os = "linux"; compression = "none";
+      load = <0x02000000>; entry = <0x02000000>;
+      hash-1 { algo = "sha256"; };
+    };
+
+    fdtA {
+      description = "DTB stable";
+      data = /incbin/("dtb-stable/bcm2711-rpi-4-b.dtb");
+      type = "flat_dt"; arch = "arm"; compression = "none";
+      hash-1 { algo = "sha256"; };
+    };
+
+    fdtB {
+      description = "DTB test (uart3 merged)";
+      data = /incbin/("dtb-test/bcm2711-rpi-4-b+uart3.dtb");
+      type = "flat_dt"; arch = "arm"; compression = "none";
+      hash-1 { algo = "sha256"; };
+    };
+  };
+
+  configurations {
+    default = "conf-A";
+
+    conf-A {
+      description = "Slot A";
+      kernel = "kernelA";
+      fdt = "fdtA";
+      signature-dev {
+        algo = "sha256,rsa2048";
+        key-name-hint = "dev";
+        sign-images = "kernel", "fdt";
+      };
+    };
+
+    conf-B {
+      description = "Slot B";
+      kernel = "kernelB";
+      fdt = "fdtB";
+      signature-dev {
+        algo = "sha256,rsa2048";
+        key-name-hint = "dev";
+        sign-images = "kernel", "fdt";
+      };
+    };
+  };
+};

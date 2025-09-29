@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AttendanceTable</class>
+ <widget class="QWidget" name="AttendanceTable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>604</width>
+    <height>539</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout" stretch="0">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QLineEdit" name="leName">
+         <property name="text">
+          <string>이름</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDateTimeEdit" name="dateFrom">
+         <property name="date">
+          <date>
+           <year>2025</year>
+           <month>7</month>
+           <day>16</day>
+          </date>
+         </property>
+         <property name="time">
+          <time>
+           <hour>9</hour>
+           <minute>0</minute>
+           <second>0</second>
+          </time>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDateTimeEdit" name="dateTo">
+         <property name="dateTime">
+          <datetime>
+           <hour>0</hour>
+           <minute>0</minute>
+           <second>0</second>
+           <year>2025</year>
+           <month>12</month>
+           <day>31</day>
+          </datetime>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pbSearch">
+         <property name="text">
+          <string>조회</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pPBdeleteDB">
+         <property name="text">
+          <string>삭제</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="layoutDirection">
+      <enum>Qt::LayoutDirection::LeftToRight</enum>
+     </property>
+     <property name="columnCount">
+      <number>6</number>
+     </property>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>129</number>
+     </attribute>
+     <attribute name="horizontalHeaderStretchLastSection">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="verticalHeaderMinimumSectionSize">
+      <number>17</number>
+     </attribute>
+     <row>
+      <property name="text">
+       <string>평균</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>이름</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>출근시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>퇴근시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>자리비움 시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>졸음시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>순수업무 시간</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
