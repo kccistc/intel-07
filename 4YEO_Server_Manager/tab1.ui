@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tab1</class>
+ <widget class="QWidget" name="tab1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="mainHorizontalLayout">
+   <item>
+    <widget class="QGroupBox" name="imageGroupBox">
+     <property name="title">
+      <string>수신 이미지</string>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>350</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <layout class="QVBoxLayout" name="imageVerticalLayout">
+      <item>
+       <widget class="QLabel" name="pLabelImage">
+        <property name="text">
+         <string>이미지 없음</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="styleSheet">
+         <string>QLabel {
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #666;
+    font-size: 12px;
+}</string>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>280</width>
+          <height>280</height>
+         </size>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pPBclearImage">
+        <property name="text">
+         <string>이미지 지우기</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="imageVerticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="rightVerticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout" stretch="6,2,2">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>수신 데이터</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pPBrecvDataClear">
+         <property name="text">
+          <string>수신 삭제</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pPBserverConnect">
+         <property name="text">
+          <string>서버 연결</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="pTErecvData"/>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="3,6,1">
+       <item>
+        <widget class="QLineEdit" name="pLErecvId">
+         <property name="placeholderText">
+          <string>수신자 ID (공백시 전체)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="pLEsendData">
+         <property name="placeholderText">
+          <string>전송할 메시지</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pPBSend">
+         <property name="text">
+          <string>송신</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
