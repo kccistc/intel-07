@@ -73,16 +73,20 @@ $ find ./ -iname *.bin|xargs ls -l
 
 ### 제출현황
 
-### Team: 뭔가 센스있는 팀명
+### Team: 4 Your Eyes Only
 <프로젝트 요약>
+시각 장애인도 일반 사람들처럼 위험을 인식할 수 있고, 자신이 입은 옷이 어떤지, 어떤 옷이 좋을지 판단할 수 있어야하지 않을까에서 시작한 프로젝트입니다.
 * Members
-  | Name | Role |
-  |----|----|
-  | 채치수 | Project lead, 프로젝트를 총괄하고 망하면 책임진다. |
-  | 송태섭 | Project manager, 마일스톤을 생성하고 프로젝트 이슈 진행상황을 관리한다. |
-  | 정대만 | UI design, 사용자 인터페이스를 정의하고 구현한다. |
-  | 채소연 | AI modeling, 원하는 결과가 나오도록 AI model을 선택, data 수집, training을 수행한다. |
-  | 권준호 | Architect, 프로젝트의 component를 구성하고 상위 디자인을 책임진다. |
-* Project Github : https://github.com/goodsense/project_awesome.git
-* 발표자료 : https://github.com/goodsense/project_aewsome/doc/slide.ppt
+
+| 이름 | 역할 |
+| :---: | :--- |
+| 조성범 | PM, 안드로이드 앱 개발 |
+| 이민재 | 모델 제작 |
+| 윤종석 | 시스템 구성 및 코드 종합 |
+| 이진우 | 하드웨어 구성 |
+| 김준형 | 데이터 수집 및 모델 최적화 |
+| 방진혁 | 데이터 수집 및 Qt 제작 |
+
+* Project Github : https://github.com/CSeongBeom/INTEL7_TEAM1
+* 발표자료 : [스마트글래스(최종).pdf](https://github.com/CSeongBeom/INTEL7_TEAM1/blob/d2074473ce124f6a5eeafa87983fc5108673e077/%EC%8A%A4%EB%A7%88%ED%8A%B8%EA%B8%80%EB%9E%98%EC%8A%A4(%EC%B5%9C%EC%A2%85).pdf)
 
