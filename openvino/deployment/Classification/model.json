@@ -1,0 +1,27 @@
+{
+   "id": "68ba5c07e12cf16e0655e3be",
+   "name": "MobileNet-V3-large-1x OpenVINO FP16",
+   "version": 2,
+   "creation_date": "2025-09-05T03:41:59.860000+00:00",
+   "model_format": "OpenVINO",
+   "precision": [
+      "FP16"
+   ],
+   "has_xai_head": false,
+   "target_device": "CPU",
+   "target_device_type": null,
+   "performance": {
+      "score": 0.865546218487395
+   },
+   "size": 6253713,
+   "latency": 0,
+   "fps_throughput": 0,
+   "optimization_type": "MO",
+   "optimization_objectives": {},
+   "model_status": "SUCCESS",
+   "configurations": [],
+   "lifecycle_stage": "active",
+   "previous_revision_id": "68ba5c07e12cf16e0655e3bb",
+   "previous_trained_revision_id": "68ba5c07e12cf16e0655e3bb",
+   "optimization_methods": []
+}

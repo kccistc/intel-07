@@ -1,0 +1,149 @@
+{
+   "id": "68b7df1ede4aea9367fb580f",
+   "name": "4_Your_Eyes_Only_Test2",
+   "creation_time": "2025-09-03T06:24:30.829000+00:00",
+   "creator_id": "063a4d89-8eb7-4039-a649-b601697edcc8",
+   "pipeline": {
+      "tasks": [
+         {
+            "id": "68b7df1ede4aea9367fb5810",
+            "title": "Dataset",
+            "task_type": "dataset"
+         },
+         {
+            "id": "68b7df1ede4aea9367fb5812",
+            "title": "Detection",
+            "task_type": "detection",
+            "labels": [
+               {
+                  "id": "68b7df1ede4aea9367fb5814",
+                  "name": "cloth",
+                  "is_anomalous": false,
+                  "color": "#ff7d00ff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "68b7df1ede4aea9367fb5821",
+                  "name": "No object",
+                  "is_anomalous": false,
+                  "color": "#000000ff",
+                  "hotkey": "",
+                  "is_empty": true,
+                  "group": "No object",
+                  "parent_id": null
+               }
+            ],
+            "label_schema_id": "68b7df1ede4aea9367fb5823"
+         },
+         {
+            "id": "68b7df1ede4aea9367fb581c",
+            "title": "Crop",
+            "task_type": "crop"
+         },
+         {
+            "id": "68b7df1ede4aea9367fb5815",
+            "title": "Classification",
+            "task_type": "classification",
+            "labels": [
+               {
+                  "id": "68b7df1ede4aea9367fb5817",
+                  "name": "T-shirt",
+                  "is_anomalous": false,
+                  "color": "#9d3b1aff",
+                  "hotkey": "2",
+                  "is_empty": false,
+                  "group": "Detection labels___cloth",
+                  "parent_id": "68b7df1ede4aea9367fb5814"
+               },
+               {
+                  "id": "68b7df1ede4aea9367fb5818",
+                  "name": "loongsleevs",
+                  "is_anomalous": false,
+                  "color": "#708541ff",
+                  "hotkey": "3",
+                  "is_empty": false,
+                  "group": "Detection labels___cloth",
+                  "parent_id": "68b7df1ede4aea9367fb5814"
+               },
+               {
+                  "id": "68b7df1ede4aea9367fb5819",
+                  "name": "hudi",
+                  "is_anomalous": false,
+                  "color": "#ff7d00ff",
+                  "hotkey": "4",
+                  "is_empty": false,
+                  "group": "Detection labels___cloth",
+                  "parent_id": "68b7df1ede4aea9367fb5814"
+               },
+               {
+                  "id": "68b7df1ede4aea9367fb581a",
+                  "name": "jeans",
+                  "is_anomalous": false,
+                  "color": "#ff5662ff",
+                  "hotkey": "5",
+                  "is_empty": false,
+                  "group": "Detection labels___cloth",
+                  "parent_id": "68b7df1ede4aea9367fb5814"
+               },
+               {
+                  "id": "68b7df1ede4aea9367fb581b",
+                  "name": "shorts",
+                  "is_anomalous": false,
+                  "color": "#f15b85ff",
+                  "hotkey": "6",
+                  "is_empty": false,
+                  "group": "Detection labels___cloth",
+                  "parent_id": "68b7df1ede4aea9367fb5814"
+               }
+            ],
+            "label_schema_id": "68b7df1ede4aea9367fb5825"
+         }
+      ],
+      "connections": [
+         {
+            "from": "68b7df1ede4aea9367fb5810",
+            "to": "68b7df1ede4aea9367fb5812"
+         },
+         {
+            "from": "68b7df1ede4aea9367fb5812",
+            "to": "68b7df1ede4aea9367fb581c"
+         },
+         {
+            "from": "68b7df1ede4aea9367fb581c",
+            "to": "68b7df1ede4aea9367fb5815"
+         }
+      ]
+   },
+   "thumbnail": "/api/v1/organizations/55c78a65-1c48-4bd0-a153-dff3c4d4b7b5/workspaces/21e2b7de-3368-412e-af9f-69ddd34c3b88/projects/68b7df1ede4aea9367fb580f/thumbnail",
+   "performance": {
+      "score": 0.8185145025752236,
+      "task_performances": [
+         {
+            "task_id": "68b7df1ede4aea9367fb5812",
+            "score": {
+               "value": 0.8387096774193548,
+               "metric_type": "F-Measure"
+            }
+         },
+         {
+            "task_id": "68b7df1ede4aea9367fb5815",
+            "score": {
+               "value": 0.7983193277310925,
+               "metric_type": "Accuracy"
+            }
+         }
+      ]
+   },
+   "storage_info": {},
+   "datasets": [
+      {
+         "id": "68b7df1ede4aea9367fb581e",
+         "name": "Dataset",
+         "use_for_training": true,
+         "creation_time": "2025-09-03T06:24:30.827000+00:00"
+      }
+   ]
+}

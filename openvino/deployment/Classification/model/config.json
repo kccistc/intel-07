@@ -1,0 +1,8 @@
+{
+    "task_type": "classification",
+    "model_type": "Classification",
+    "model_parameters": {
+        "labels": "T-shirt loongsleevs hudi jeans shorts",
+        "labels_ids": "68b7df1ede4aea9367fb5817 68b7df1ede4aea9367fb5818 68b7df1ede4aea9367fb5819 68b7df1ede4aea9367fb581a 68b7df1ede4aea9367fb581b"
+    }
+}

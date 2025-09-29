@@ -1,0 +1,27 @@
+{
+   "id": "68b7e9fe453b31a6c75a8820",
+   "name": "MobileNetV2-ATSS OpenVINO FP16",
+   "version": 4,
+   "creation_date": "2025-09-03T07:10:54.962000+00:00",
+   "model_format": "OpenVINO",
+   "precision": [
+      "FP16"
+   ],
+   "has_xai_head": false,
+   "target_device": "CPU",
+   "target_device_type": null,
+   "performance": {
+      "score": 0.8671328671328671
+   },
+   "size": 5739318,
+   "latency": 0,
+   "fps_throughput": 0,
+   "optimization_type": "MO",
+   "optimization_objectives": {},
+   "model_status": "SUCCESS",
+   "configurations": [],
+   "lifecycle_stage": "active",
+   "previous_revision_id": "68b7e9fe453b31a6c75a881d",
+   "previous_trained_revision_id": "68b7e9fe453b31a6c75a881d",
+   "optimization_methods": []
+}

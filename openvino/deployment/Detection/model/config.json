@@ -1,0 +1,8 @@
+{
+    "task_type": "detection",
+    "model_type": "ssd",
+    "model_parameters": {
+        "labels": "cloth",
+        "labels_ids": "68b7df1ede4aea9367fb5814"
+    }
+}
