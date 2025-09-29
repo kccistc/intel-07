@@ -1,4 +1,0 @@
-kmw
-ssy
-mjy
-hgt
