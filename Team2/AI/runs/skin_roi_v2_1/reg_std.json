@@ -1,0 +1,318 @@
+{
+  "eq_l_perocular_wrinkle_Ra": {
+    "mean": 21.85150789473684,
+    "std": 5.2447067450053435
+  },
+  "eq_l_perocular_wrinkle_Rmax": {
+    "mean": 164.98581929824562,
+    "std": 38.9103965823874
+  },
+  "eq_l_perocular_wrinkle_Rt": {
+    "mean": 173.901650877193,
+    "std": 40.06274451206119
+  },
+  "eq_l_perocular_wrinkle_Rz=Rtm": {
+    "mean": 122.84199912280702,
+    "std": 26.414200468411245
+  },
+  "eq_l_perocular_wrinkle_Rp": {
+    "mean": 79.31406140350877,
+    "std": 16.926823290395074
+  },
+  "eq_l_perocular_wrinkle_Rv": {
+    "mean": 94.58749824561403,
+    "std": 24.973629798053746
+  },
+  "eq_l_perocular_wrinkle_Rq": {
+    "mean": 27.442295614035086,
+    "std": 6.488673922153074
+  },
+  "eq_l_perocular_wrinkle_R3z": {
+    "mean": 69.78097192982456,
+    "std": 15.99890967810802
+  },
+  "eq_r_perocular_wrinkle_Ra": {
+    "mean": 21.673139494333043,
+    "std": 5.479222431058202
+  },
+  "eq_r_perocular_wrinkle_Rmax": {
+    "mean": 161.5364995640802,
+    "std": 41.280883336586996
+  },
+  "eq_r_perocular_wrinkle_Rt": {
+    "mean": 170.0063121185702,
+    "std": 42.81943049962421
+  },
+  "eq_r_perocular_wrinkle_Rz=Rtm": {
+    "mean": 120.01028421970358,
+    "std": 27.384264524174174
+  },
+  "eq_r_perocular_wrinkle_Rp": {
+    "mean": 78.88590322580644,
+    "std": 18.086105815683414
+  },
+  "eq_r_perocular_wrinkle_Rv": {
+    "mean": 91.12054141238012,
+    "std": 26.269877120044725
+  },
+  "eq_r_perocular_wrinkle_Rq": {
+    "mean": 27.120775065387967,
+    "std": 6.8115511502204695
+  },
+  "eq_r_perocular_wrinkle_R3z": {
+    "mean": 68.94415344376635,
+    "std": 16.199297809170147
+  },
+  "eq_l_cheek_moisture": {
+    "mean": 61.97330179028132,
+    "std": 9.593953332851049
+  },
+  "eq_l_cheek_elasticity_R0": {
+    "mean": 0.2540034100596761,
+    "std": 0.058621486646710415
+  },
+  "eq_l_cheek_elasticity_R1": {
+    "mean": 0.10408184143222506,
+    "std": 0.026713165094635394
+  },
+  "eq_l_cheek_elasticity_R2": {
+    "mean": 0.5807817561807332,
+    "std": 0.09575158236644983
+  },
+  "eq_l_cheek_elasticity_R3": {
+    "mean": 0.28938874680306903,
+    "std": 0.06120910400696714
+  },
+  "eq_l_cheek_elasticity_R4": {
+    "mean": 0.15133930093776643,
+    "std": 0.03381258563712264
+  },
+  "eq_l_cheek_elasticity_R5": {
+    "mean": 0.5352821824381926,
+    "std": 0.10722360388548567
+  },
+  "eq_l_cheek_elasticity_R6": {
+    "mean": 0.651311167945439,
+    "std": 0.17115924135494293
+  },
+  "eq_l_cheek_elasticity_R7": {
+    "mean": 0.3260903665814152,
+    "std": 0.06730735398360534
+  },
+  "eq_l_cheek_elasticity_R8": {
+    "mean": 0.14971611253196931,
+    "std": 0.05257988536524539
+  },
+  "eq_l_cheek_elasticity_R9": {
+    "mean": 0.03555839727195226,
+    "std": 0.007157707117543735
+  },
+  "eq_l_cheek_elasticity_Q0": {
+    "mean": 50.766069906223365,
+    "std": 11.758673030902212
+  },
+  "eq_l_cheek_elasticity_Q1": {
+    "mean": 0.5148576300085251,
+    "std": 0.09114445710697654
+  },
+  "eq_l_cheek_elasticity_Q2": {
+    "mean": 0.4035754475703325,
+    "std": 0.07756063837328715
+  },
+  "eq_l_cheek_elasticity_Q3": {
+    "mean": 0.11129156010230178,
+    "std": 0.02404763497052775
+  },
+  "eq_l_cheek_pore": {
+    "mean": 874.9062233589087,
+    "std": 460.72591520228985
+  },
+  "eq_r_cheek_moisture": {
+    "mean": 61.725239448751076,
+    "std": 9.518778050220872
+  },
+  "eq_r_cheek_elasticity_R0": {
+    "mean": 0.25461068044788976,
+    "std": 0.056995703560102105
+  },
+  "eq_r_cheek_elasticity_R1": {
+    "mean": 0.10620068906115417,
+    "std": 0.029031831563444306
+  },
+  "eq_r_cheek_elasticity_R2": {
+    "mean": 0.5748957795004306,
+    "std": 0.10028771382225807
+  },
+  "eq_r_cheek_elasticity_R3": {
+    "mean": 0.29015417743324723,
+    "std": 0.060041277912268785
+  },
+  "eq_r_cheek_elasticity_R4": {
+    "mean": 0.15391386735572782,
+    "std": 0.03647582568116863
+  },
+  "eq_r_cheek_elasticity_R5": {
+    "mean": 0.5237855297157622,
+    "std": 0.10894684387003492
+  },
+  "eq_r_cheek_elasticity_R6": {
+    "mean": 0.6494108527131782,
+    "std": 0.15082146363430374
+  },
+  "eq_r_cheek_elasticity_R7": {
+    "mean": 0.3198776916451335,
+    "std": 0.07094830385565938
+  },
+  "eq_r_cheek_elasticity_R8": {
+    "mean": 0.14842894056847547,
+    "std": 0.050256389001417615
+  },
+  "eq_r_cheek_elasticity_R9": {
+    "mean": 0.035619293712316966,
+    "std": 0.007751398162695488
+  },
+  "eq_r_cheek_elasticity_Q0": {
+    "mean": 50.906976744186046,
+    "std": 11.419966044889795
+  },
+  "eq_r_cheek_elasticity_Q1": {
+    "mean": 0.5094022394487511,
+    "std": 0.09473355865542467
+  },
+  "eq_r_cheek_elasticity_Q2": {
+    "mean": 0.3978518518518518,
+    "std": 0.07951699126553737
+  },
+  "eq_r_cheek_elasticity_Q3": {
+    "mean": 0.1115340223944875,
+    "std": 0.025223095403990013
+  },
+  "eq_r_cheek_pore": {
+    "mean": 951.2015503875969,
+    "std": 487.2003268234985
+  },
+  "eq_chin_moisture": {
+    "mean": 60.638313368055556,
+    "std": 10.058805904795497
+  },
+  "eq_chin_elasticity_R0": {
+    "mean": 0.2332248263888889,
+    "std": 0.060791201390020935
+  },
+  "eq_chin_elasticity_R1": {
+    "mean": 0.0938845486111111,
+    "std": 0.02440667238549094
+  },
+  "eq_chin_elasticity_R2": {
+    "mean": 0.5824869791666667,
+    "std": 0.10511983901836536
+  },
+  "eq_chin_elasticity_R3": {
+    "mean": 0.2683984375,
+    "std": 0.062008658837461664
+  },
+  "eq_chin_elasticity_R4": {
+    "mean": 0.13561197916666667,
+    "std": 0.028033959809235853
+  },
+  "eq_chin_elasticity_R5": {
+    "mean": 0.5613072916666666,
+    "std": 0.10489486674236455
+  },
+  "eq_chin_elasticity_R6": {
+    "mean": 0.6519800347222222,
+    "std": 0.18878989072482497
+  },
+  "eq_chin_elasticity_R7": {
+    "mean": 0.3427508680555556,
+    "std": 0.0674022362538851
+  },
+  "eq_chin_elasticity_R8": {
+    "mean": 0.13934027777777777,
+    "std": 0.05613061354391732
+  },
+  "eq_chin_elasticity_R9": {
+    "mean": 0.035173611111111114,
+    "std": 0.0077510715598050305
+  },
+  "eq_chin_elasticity_Q0": {
+    "mean": 46.64496527777778,
+    "std": 12.158041278004186
+  },
+  "eq_chin_elasticity_Q1": {
+    "mean": 0.5211519097222221,
+    "std": 0.09515761622260585
+  },
+  "eq_chin_elasticity_Q2": {
+    "mean": 0.417203125,
+    "std": 0.07486050074202663
+  },
+  "eq_chin_elasticity_Q3": {
+    "mean": 0.10392621527777778,
+    "std": 0.03166041156334067
+  },
+  "eq_pigmentation_count": {
+    "mean": 159.08318098720292,
+    "std": 62.90455589134917
+  },
+  "eq_forehead_moisture": {
+    "mean": 59.68620071047957,
+    "std": 9.276024404715553
+  },
+  "eq_forehead_elasticity_R0": {
+    "mean": 0.2466598579040853,
+    "std": 0.0604807040775532
+  },
+  "eq_forehead_elasticity_R1": {
+    "mean": 0.09626820603907638,
+    "std": 0.032613927208633535
+  },
+  "eq_forehead_elasticity_R2": {
+    "mean": 0.6022921847246892,
+    "std": 0.10992485088771062
+  },
+  "eq_forehead_elasticity_R3": {
+    "mean": 0.2796927175843695,
+    "std": 0.06032278131015372
+  },
+  "eq_forehead_elasticity_R4": {
+    "mean": 0.13683481349911192,
+    "std": 0.04030163836118084
+  },
+  "eq_forehead_elasticity_R5": {
+    "mean": 0.5261909413854352,
+    "std": 0.11997309543674413
+  },
+  "eq_forehead_elasticity_R6": {
+    "mean": 0.6517015985790409,
+    "std": 0.18511111973224123
+  },
+  "eq_forehead_elasticity_R7": {
+    "mean": 0.3191722912966253,
+    "std": 0.06709507631022467
+  },
+  "eq_forehead_elasticity_R8": {
+    "mean": 0.15039165186500889,
+    "std": 0.0542199518877648
+  },
+  "eq_forehead_elasticity_R9": {
+    "mean": 0.033032859680284195,
+    "std": 0.008246338000919338
+  },
+  "eq_forehead_elasticity_Q0": {
+    "mean": 49.331971580817054,
+    "std": 12.09594181551064
+  },
+  "eq_forehead_elasticity_Q1": {
+    "mean": 0.5302797513321492,
+    "std": 0.09968685148396844
+  },
+  "eq_forehead_elasticity_Q2": {
+    "mean": 0.405113676731794,
+    "std": 0.07852332912833898
+  },
+  "eq_forehead_elasticity_Q3": {
+    "mean": 0.125145648312611,
+    "std": 0.03767834988300914
+  }
+}

@@ -1,0 +1,107 @@
+{
+   "id": "68c0d4e6eb2ad22e9e5fecd1",
+   "name": "\uae40 \uc5c6\ub294 \ub514\ud14d\ud305",
+   "creation_time": "2025-09-10T01:31:18.388000+00:00",
+   "creator_id": "4ec214d1-0186-46f5-9fde-b7957a503b3e",
+   "pipeline": {
+      "tasks": [
+         {
+            "id": "68c0d4e6eb2ad22e9e5fecd2",
+            "title": "Dataset",
+            "task_type": "dataset"
+         },
+         {
+            "id": "68c0d4e6eb2ad22e9e5fecd4",
+            "title": "Detection",
+            "task_type": "detection",
+            "labels": [
+               {
+                  "id": "68c0d4e6eb2ad22e9e5fecd6",
+                  "name": "forehead",
+                  "is_anomalous": false,
+                  "color": "#26518eff",
+                  "hotkey": "1",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "68c0d4e6eb2ad22e9e5fecd7",
+                  "name": "cheek",
+                  "is_anomalous": false,
+                  "color": "#00f5d4ff",
+                  "hotkey": "2",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "68c0d4e6eb2ad22e9e5fecd8",
+                  "name": "lip",
+                  "is_anomalous": false,
+                  "color": "#5b69ffff",
+                  "hotkey": "3",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "68c0d4e6eb2ad22e9e5fecd9",
+                  "name": "chin",
+                  "is_anomalous": false,
+                  "color": "#d7bc5eff",
+                  "hotkey": "4",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "68c0d4e6eb2ad22e9e5fecdd",
+                  "name": "No object",
+                  "is_anomalous": false,
+                  "color": "#000000ff",
+                  "hotkey": "",
+                  "is_empty": true,
+                  "group": "No object",
+                  "parent_id": null
+               }
+            ],
+            "label_schema_id": "68c0d4e6eb2ad22e9e5fecdf"
+         }
+      ],
+      "connections": [
+         {
+            "from": "68c0d4e6eb2ad22e9e5fecd2",
+            "to": "68c0d4e6eb2ad22e9e5fecd4"
+         }
+      ]
+   },
+   "thumbnail": "/api/v1/organizations/0218e0ba-edac-495f-8fef-28ade6fd39f3/workspaces/ef10c254-f7cc-4e73-9cbe-c71a327baed3/projects/68c0d4e6eb2ad22e9e5fecd1/thumbnail",
+   "performance": {
+      "score": 0.9285714285714284,
+      "task_performances": [
+         {
+            "task_id": "68c0d4e6eb2ad22e9e5fecd4",
+            "score": {
+               "value": 0.9285714285714284,
+               "metric_type": "F-Measure"
+            }
+         }
+      ]
+   },
+   "storage_info": {},
+   "datasets": [
+      {
+         "id": "68c0d4e6eb2ad22e9e5fecda",
+         "name": "Dataset",
+         "use_for_training": true,
+         "creation_time": "2025-09-10T01:31:18.385000+00:00"
+      },
+      {
+         "id": "68c0e8baeb2ad22e9e5fed82",
+         "name": "Testing set 1",
+         "use_for_training": false,
+         "creation_time": "2025-09-10T02:55:54.533000+00:00"
+      }
+   ]
+}

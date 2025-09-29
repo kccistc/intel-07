@@ -1,0 +1,150 @@
+{
+  "regression_keys": {
+    "forehead": [
+      "eq_forehead_elasticity_Q0",
+      "eq_forehead_moisture"
+    ],
+    "left_cheek": [
+      "eq_l_cheek_elasticity_Q0",
+      "eq_l_cheek_moisture",
+      "eq_l_cheek_pore"
+    ],
+    "right_cheek": [
+      "eq_r_cheek_elasticity_Q0",
+      "eq_r_cheek_moisture",
+      "eq_r_cheek_pore"
+    ],
+    "lips": [],
+    "chin": [
+      "eq_chin_elasticity_Q0",
+      "eq_chin_moisture"
+    ]
+  },
+  "class_keys": {
+    "forehead": [
+      "ann_forehead_pigmentation"
+    ],
+    "left_cheek": [
+      "ann_l_cheek_pigmentation"
+    ],
+    "right_cheek": [
+      "ann_r_cheek_pigmentation"
+    ],
+    "lips": [
+      "ann_lip_dryness"
+    ],
+    "chin": []
+  },
+  "class_key_to_index": {
+    "forehead": {
+      "ann_forehead_pigmentation": {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "val_to_idx": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        },
+        "idx_to_val": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      }
+    },
+    "left_cheek": {
+      "ann_l_cheek_pigmentation": {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "val_to_idx": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        },
+        "idx_to_val": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      }
+    },
+    "right_cheek": {
+      "ann_r_cheek_pigmentation": {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "val_to_idx": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        },
+        "idx_to_val": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      }
+    },
+    "lips": {
+      "ann_lip_dryness": {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "val_to_idx": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4
+        },
+        "idx_to_val": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4
+        }
+      }
+    },
+    "chin": {}
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "regression_keys": {
+    "forehead": [
+      "eq_forehead_elasticity_Q0",
+      "eq_forehead_elasticity_Q1",
+      "eq_forehead_elasticity_Q2",
+      "eq_forehead_elasticity_Q3",
+      "eq_forehead_elasticity_R0",
+      "eq_forehead_elasticity_R1",
+      "eq_forehead_elasticity_R2",
+      "eq_forehead_elasticity_R3",
+      "eq_forehead_elasticity_R4",
+      "eq_forehead_elasticity_R5",
+      "eq_forehead_elasticity_R6",
+      "eq_forehead_elasticity_R7",
+      "eq_forehead_elasticity_R8",
+      "eq_forehead_elasticity_R9",
+      "eq_forehead_moisture"
+    ],
+    "glabella": [],
+    "left_crowsfeet": [
+      "eq_l_perocular_wrinkle_R3z",
+      "eq_l_perocular_wrinkle_Ra",
+      "eq_l_perocular_wrinkle_Rmax",
+      "eq_l_perocular_wrinkle_Rp",
+      "eq_l_perocular_wrinkle_Rq",
+      "eq_l_perocular_wrinkle_Rt",
+      "eq_l_perocular_wrinkle_Rv",
+      "eq_l_perocular_wrinkle_Rz=Rtm"
+    ],
+    "right_crowsfeet": [
+      "eq_r_perocular_wrinkle_R3z",
+      "eq_r_perocular_wrinkle_Ra",
+      "eq_r_perocular_wrinkle_Rmax",
+      "eq_r_perocular_wrinkle_Rp",
+      "eq_r_perocular_wrinkle_Rq",
+      "eq_r_perocular_wrinkle_Rt",
+      "eq_r_perocular_wrinkle_Rv",
+      "eq_r_perocular_wrinkle_Rz=Rtm"
+    ],
+    "left_cheek": [
+      "eq_l_cheek_elasticity_Q0",
+      "eq_l_cheek_elasticity_Q1",
+      "eq_l_cheek_elasticity_Q2",
+      "eq_l_cheek_elasticity_Q3",
+      "eq_l_cheek_elasticity_R0",
+      "eq_l_cheek_elasticity_R1",
+      "eq_l_cheek_elasticity_R2",
+      "eq_l_cheek_elasticity_R3",
+      "eq_l_cheek_elasticity_R4",
+      "eq_l_cheek_elasticity_R5",
+      "eq_l_cheek_elasticity_R6",
+      "eq_l_cheek_elasticity_R7",
+      "eq_l_cheek_elasticity_R8",
+      "eq_l_cheek_elasticity_R9",
+      "eq_l_cheek_moisture",
+      "eq_l_cheek_pore"
+    ],
+    "right_cheek": [
+      "eq_r_cheek_elasticity_Q0",
+      "eq_r_cheek_elasticity_Q1",
+      "eq_r_cheek_elasticity_Q2",
+      "eq_r_cheek_elasticity_Q3",
+      "eq_r_cheek_elasticity_R0",
+      "eq_r_cheek_elasticity_R1",
+      "eq_r_cheek_elasticity_R2",
+      "eq_r_cheek_elasticity_R3",
+      "eq_r_cheek_elasticity_R4",
+      "eq_r_cheek_elasticity_R5",
+      "eq_r_cheek_elasticity_R6",
+      "eq_r_cheek_elasticity_R7",
+      "eq_r_cheek_elasticity_R8",
+      "eq_r_cheek_elasticity_R9",
+      "eq_r_cheek_moisture",
+      "eq_r_cheek_pore"
+    ],
+    "lips": [],
+    "chin": [
+      "eq_chin_elasticity_Q0",
+      "eq_chin_elasticity_Q1",
+      "eq_chin_elasticity_Q2",
+      "eq_chin_elasticity_Q3",
+      "eq_chin_elasticity_R0",
+      "eq_chin_elasticity_R1",
+      "eq_chin_elasticity_R2",
+      "eq_chin_elasticity_R3",
+      "eq_chin_elasticity_R4",
+      "eq_chin_elasticity_R5",
+      "eq_chin_elasticity_R6",
+      "eq_chin_elasticity_R7",
+      "eq_chin_elasticity_R8",
+      "eq_chin_elasticity_R9",
+      "eq_chin_moisture"
+    ],
+    "full": []
+  },
+  "class_keys": {
+    "forehead": [
+      "ann_forehead_pigmentation",
+      "ann_forehead_wrinkle"
+    ],
+    "glabella": [
+      "ann_glabellus_wrinkle"
+    ],
+    "left_crowsfeet": [
+      "ann_l_perocular_wrinkle"
+    ],
+    "right_crowsfeet": [
+      "ann_r_perocular_wrinkle"
+    ],
+    "left_cheek": [
+      "ann_l_cheek_pigmentation",
+      "ann_l_cheek_pore"
+    ],
+    "right_cheek": [
+      "ann_r_cheek_pigmentation",
+      "ann_r_cheek_pore"
+    ],
+    "lips": [
+      "ann_lip_dryness"
+    ],
+    "chin": [
+      "ann_chin_sagging"
+    ],
+    "full": []
+  },
+  "class_key_to_index": {
+    "forehead": {
+      "ann_forehead_pigmentation": {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "val_to_idx": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        },
+        "idx_to_val": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      },
+      "ann_forehead_wrinkle": {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "val_to_idx": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        },
+        "idx_to_val": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      }
+    },
+    "glabella": {
+      "ann_glabellus_wrinkle": {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "val_to_idx": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        },
+        "idx_to_val": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      }
+    },
+    "left_crowsfeet": {
+      "ann_l_perocular_wrinkle": {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "val_to_idx": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        },
+        "idx_to_val": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      }
+    },
+    "right_crowsfeet": {
+      "ann_r_perocular_wrinkle": {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "val_to_idx": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        },
+        "idx_to_val": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      }
+    },
+    "left_cheek": {
+      "ann_l_cheek_pigmentation": {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "val_to_idx": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        },
+        "idx_to_val": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      },
+      "ann_l_cheek_pore": {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "val_to_idx": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        },
+        "idx_to_val": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      }
+    },
+    "right_cheek": {
+      "ann_r_cheek_pigmentation": {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "val_to_idx": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        },
+        "idx_to_val": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      },
+      "ann_r_cheek_pore": {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "val_to_idx": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        },
+        "idx_to_val": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      }
+    },
+    "lips": {
+      "ann_lip_dryness": {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "val_to_idx": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4
+        },
+        "idx_to_val": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4
+        }
+      }
+    },
+    "chin": {
+      "ann_chin_sagging": {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "val_to_idx": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        },
+        "idx_to_val": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "overall": {
+    "regression_MAE_mean_over_keys": 10.85009191867759,
+    "classification_Acc_mean_over_keys": null
+  },
+  "per_roi": {
+    "left_crowsfeet": {
+      "regression_MAE_mean_over_keys": 15.960792647842549,
+      "classification_Acc_mean_over_keys": null
+    },
+    "chin": {
+      "regression_MAE_mean_over_keys": 1.4734993207967824,
+      "classification_Acc_mean_over_keys": null
+    },
+    "left_cheek": {
+      "regression_MAE_mean_over_keys": 17.676687425516555,
+      "classification_Acc_mean_over_keys": null
+    },
+    "right_cheek": {
+      "regression_MAE_mean_over_keys": 19.006496478541187,
+      "classification_Acc_mean_over_keys": null
+    },
+    "forehead": {
+      "regression_MAE_mean_over_keys": 1.5062977401925346,
+      "classification_Acc_mean_over_keys": null
+    },
+    "right_crowsfeet": {
+      "regression_MAE_mean_over_keys": 10.874116261793525,
+      "classification_Acc_mean_over_keys": null
+    }
+  },
+  "per_key": {
+    "regression": {
+      "eq_r_perocular_wrinkle_R3z": {
+        "MAE": 7.601084669124234,
+        "N": 84
+      },
+      "eq_r_perocular_wrinkle_Ra": {
+        "MAE": 2.688610943613946,
+        "N": 84
+      },
+      "eq_r_perocular_wrinkle_Rmax": {
+        "MAE": 19.05124378453222,
+        "N": 84
+      },
+      "eq_r_perocular_wrinkle_Rp": {
+        "MAE": 10.305417076642104,
+        "N": 84
+      },
+      "eq_r_perocular_wrinkle_Rq": {
+        "MAE": 3.300987291229727,
+        "N": 84
+      },
+      "eq_r_perocular_wrinkle_Rt": {
+        "MAE": 19.923754673737776,
+        "N": 84
+      },
+      "eq_r_perocular_wrinkle_Rv": {
+        "MAE": 10.534311561470755,
+        "N": 84
+      },
+      "eq_r_perocular_wrinkle_Rz=Rtm": {
+        "MAE": 13.587520093997435,
+        "N": 84
+      },
+      "eq_chin_elasticity_Q0": {
+        "MAE": 9.573438006874143,
+        "N": 115
+      },
+      "eq_chin_elasticity_Q1": {
+        "MAE": 0.0675992119440027,
+        "N": 115
+      },
+      "eq_chin_elasticity_Q2": {
+        "MAE": 0.05502989799016885,
+        "N": 115
+      },
+      "eq_chin_elasticity_Q3": {
+        "MAE": 0.022055327403257195,
+        "N": 115
+      },
+      "eq_chin_elasticity_R0": {
+        "MAE": 0.0481782119842837,
+        "N": 115
+      },
+      "eq_chin_elasticity_R1": {
+        "MAE": 0.020364919061669446,
+        "N": 115
+      },
+      "eq_chin_elasticity_R2": {
+        "MAE": 0.07365310137561919,
+        "N": 115
+      },
+      "eq_chin_elasticity_R3": {
+        "MAE": 0.04914117220378203,
+        "N": 115
+      },
+      "eq_chin_elasticity_R4": {
+        "MAE": 0.02538585878226118,
+        "N": 115
+      },
+      "eq_chin_elasticity_R5": {
+        "MAE": 0.09798654987558184,
+        "N": 115
+      },
+      "eq_chin_elasticity_R6": {
+        "MAE": 0.13111400771045242,
+        "N": 115
+      },
+      "eq_chin_elasticity_R7": {
+        "MAE": 0.04988526579670476,
+        "N": 115
+      },
+      "eq_chin_elasticity_R8": {
+        "MAE": 0.03967273850511181,
+        "N": 115
+      },
+      "eq_chin_elasticity_R9": {
+        "MAE": 0.005258832227480285,
+        "N": 115
+      },
+      "eq_chin_moisture": {
+        "MAE": 11.843726710217213,
+        "N": 115
+      },
+      "eq_r_cheek_elasticity_Q0": {
+        "MAE": 9.019277387248321,
+        "N": 96
+      },
+      "eq_r_cheek_elasticity_Q1": {
+        "MAE": 0.05122848988954287,
+        "N": 96
+      },
+      "eq_r_cheek_elasticity_Q2": {
+        "MAE": 0.044640472009967014,
+        "N": 96
+      },
+      "eq_r_cheek_elasticity_Q3": {
+        "MAE": 0.017904764809174915,
+        "N": 96
+      },
+      "eq_r_cheek_elasticity_R0": {
+        "MAE": 0.04488775827810135,
+        "N": 96
+      },
+      "eq_r_cheek_elasticity_R1": {
+        "MAE": 0.01612273763285116,
+        "N": 96
+      },
+      "eq_r_cheek_elasticity_R2": {
+        "MAE": 0.053053732826973836,
+        "N": 96
+      },
+      "eq_r_cheek_elasticity_R3": {
+        "MAE": 0.04640047504137007,
+        "N": 96
+      },
+      "eq_r_cheek_elasticity_R4": {
+        "MAE": 0.023920384192705892,
+        "N": 96
+      },
+      "eq_r_cheek_elasticity_R5": {
+        "MAE": 0.06817039857731641,
+        "N": 96
+      },
+      "eq_r_cheek_elasticity_R6": {
+        "MAE": 0.10002419719591467,
+        "N": 96
+      },
+      "eq_r_cheek_elasticity_R7": {
+        "MAE": 0.04043889918286487,
+        "N": 96
+      },
+      "eq_r_cheek_elasticity_R8": {
+        "MAE": 0.037035172680792726,
+        "N": 96
+      },
+      "eq_r_cheek_elasticity_R9": {
+        "MAE": 0.006135887234497452,
+        "N": 96
+      },
+      "eq_r_cheek_moisture": {
+        "MAE": 11.597266601504835,
+        "N": 96
+      },
+      "eq_r_cheek_pore": {
+        "MAE": 282.93743629835376,
+        "N": 96
+      },
+      "eq_forehead_elasticity_Q0": {
+        "MAE": 10.665132601332381,
+        "N": 106
+      },
+      "eq_forehead_elasticity_Q1": {
+        "MAE": 0.06405177632426695,
+        "N": 106
+      },
+      "eq_forehead_elasticity_Q2": {
+        "MAE": 0.046654624171348455,
+        "N": 106
+      },
+      "eq_forehead_elasticity_Q3": {
+        "MAE": 0.02678404907490075,
+        "N": 106
+      },
+      "eq_forehead_elasticity_R0": {
+        "MAE": 0.052982058240096684,
+        "N": 106
+      },
+      "eq_forehead_elasticity_R1": {
+        "MAE": 0.020622425400093475,
+        "N": 106
+      },
+      "eq_forehead_elasticity_R2": {
+        "MAE": 0.07107515097217208,
+        "N": 106
+      },
+      "eq_forehead_elasticity_R3": {
+        "MAE": 0.053781879693222005,
+        "N": 106
+      },
+      "eq_forehead_elasticity_R4": {
+        "MAE": 0.023853362522072867,
+        "N": 106
+      },
+      "eq_forehead_elasticity_R5": {
+        "MAE": 0.1022880222312913,
+        "N": 106
+      },
+      "eq_forehead_elasticity_R6": {
+        "MAE": 0.1861119253322389,
+        "N": 106
+      },
+      "eq_forehead_elasticity_R7": {
+        "MAE": 0.04457754873315251,
+        "N": 106
+      },
+      "eq_forehead_elasticity_R8": {
+        "MAE": 0.044883602978774716,
+        "N": 106
+      },
+      "eq_forehead_elasticity_R9": {
+        "MAE": 0.008208247660193378,
+        "N": 106
+      },
+      "eq_forehead_moisture": {
+        "MAE": 11.183458828221815,
+        "N": 106
+      },
+      "eq_l_perocular_wrinkle_R3z": {
+        "MAE": 11.873302719466004,
+        "N": 97
+      },
+      "eq_l_perocular_wrinkle_Ra": {
+        "MAE": 3.9661110370090067,
+        "N": 97
+      },
+      "eq_l_perocular_wrinkle_Rmax": {
+        "MAE": 28.132205912565265,
+        "N": 97
+      },
+      "eq_l_perocular_wrinkle_Rp": {
+        "MAE": 13.208979734553617,
+        "N": 97
+      },
+      "eq_l_perocular_wrinkle_Rq": {
+        "MAE": 4.904403992882372,
+        "N": 97
+      },
+      "eq_l_perocular_wrinkle_Rt": {
+        "MAE": 29.131401160237747,
+        "N": 97
+      },
+      "eq_l_perocular_wrinkle_Rv": {
+        "MAE": 17.11423384429236,
+        "N": 97
+      },
+      "eq_l_perocular_wrinkle_Rz=Rtm": {
+        "MAE": 19.355702781734024,
+        "N": 97
+      },
+      "eq_l_cheek_elasticity_Q0": {
+        "MAE": 7.481615717084719,
+        "N": 108
+      },
+      "eq_l_cheek_elasticity_Q1": {
+        "MAE": 0.06539417537567566,
+        "N": 108
+      },
+      "eq_l_cheek_elasticity_Q2": {
+        "MAE": 0.05393785602910845,
+        "N": 108
+      },
+      "eq_l_cheek_elasticity_Q3": {
+        "MAE": 0.01851707736940014,
+        "N": 108
+      },
+      "eq_l_cheek_elasticity_R0": {
+        "MAE": 0.036933459374219026,
+        "N": 108
+      },
+      "eq_l_cheek_elasticity_R1": {
+        "MAE": 0.02104651326965319,
+        "N": 108
+      },
+      "eq_l_cheek_elasticity_R2": {
+        "MAE": 0.07129120403980647,
+        "N": 108
+      },
+      "eq_l_cheek_elasticity_R3": {
+        "MAE": 0.03968280927885325,
+        "N": 108
+      },
+      "eq_l_cheek_elasticity_R4": {
+        "MAE": 0.025413719937344956,
+        "N": 108
+      },
+      "eq_l_cheek_elasticity_R5": {
+        "MAE": 0.07658723172344833,
+        "N": 108
+      },
+      "eq_l_cheek_elasticity_R6": {
+        "MAE": 0.11925561757533919,
+        "N": 108
+      },
+      "eq_l_cheek_elasticity_R7": {
+        "MAE": 0.048626787321854686,
+        "N": 108
+      },
+      "eq_l_cheek_elasticity_R8": {
+        "MAE": 0.030425174404993392,
+        "N": 108
+      },
+      "eq_l_cheek_elasticity_R9": {
+        "MAE": 0.006521993114688024,
+        "N": 108
+      },
+      "eq_l_cheek_moisture": {
+        "MAE": 11.531688028352209,
+        "N": 108
+      },
+      "eq_l_cheek_pore": {
+        "MAE": 263.20006144401356,
+        "N": 108
+      }
+    },
+    "classification": {}
+  }
+}

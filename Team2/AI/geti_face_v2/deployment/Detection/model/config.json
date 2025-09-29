@@ -1,0 +1,8 @@
+{
+    "task_type": "detection",
+    "model_type": "ssd",
+    "model_parameters": {
+        "labels": "forehead cheek lip chin",
+        "labels_ids": "68c0d4e6eb2ad22e9e5fecd6 68c0d4e6eb2ad22e9e5fecd7 68c0d4e6eb2ad22e9e5fecd8 68c0d4e6eb2ad22e9e5fecd9"
+    }
+}
